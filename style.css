@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.buttons button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid  white;
+}
+
+
+.buttons button:nth-child(1){
+    background: aliceblue;
+    border: 2px solid  #005792;
+}
+
+.buttons button:nth-child(1):active{
+    background: #005792;
+    border: 2px solid  aliceblue;
+}
+
+.buttons button:nth-child(2){
+    background: #005792;color: #fff; 
+}
+
+.buttons button:nth-child(3){
+    background: #00bbf0; 
+}
+
+.buttons button:nth-child(4){
+    background: #fdb44b;
+    border: 2px solid  #fdb44b;  
+}
+
+.buttons button:nth-child(4):active{
+    background: aliceblue;
+    border: 2px solid  #fdb44b;  
+}
+
+
+.buttons button:nth-child(5){
+    background: #ce0f1f;
+    color: #fff;
+    border: 2px solid  #ce0f1f;
+}
+
+.buttons button:nth-child(5):active{
+    background: #fff;
+    color: #ce0f1f;
+}
+
+.buttons button:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.tab{
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #005792;
+   width: 20px !important;
+}
+tr{
+    height: 20px;
+}

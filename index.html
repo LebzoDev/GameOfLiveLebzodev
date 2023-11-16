@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conway's Game of Life</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+      <section style="display: none;">
+        <label for="number">Choose a number of cols and rows:</label>
+        <input type="number" name="number" id="number" oninput="updateNumberValue()">
+      </section>
+        <div class="tab">
+        </div>
+        <section class="buttons">
+            <button id="reset"> Reset</button>
+            <button id="start">Start</button>
+            <button id="next"> Next</button>
+            <button id="clear"> Clear</button>
+            <button id="stop">Stop</button>
+        </section>
+    </div>
+
+  <script src="matrix_scripit.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
