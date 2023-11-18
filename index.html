@@ -6,12 +6,25 @@
 </head>
 <body>
     <div class="main">
-      <section style="display: none;">
-        <label for="number">Choose a number of cols and rows:</label>
-        <input type="number" name="number" id="number" oninput="updateNumberValue()">
-      </section>
+
+        <div class="config">
+            <section>
+                <label for="rows">Lignes :</label>
+                <select id="rows" onchange="getSelectedValue('rows')">
+                </select>
+            </section>
+            <section>
+                <label for="cols">Colonnes :</label>
+                <select id="cols" onchange="getSelectedValue('cols')">
+                </select>
+            </section>
+            <section id="round" >
+            </section>
+        </div>
+
         <div class="tab">
         </div>
+
         <section class="buttons">
             <button id="reset"> Reset</button>
             <button id="start">Start</button>
@@ -21,7 +34,7 @@
         </section>
     </div>
 
-  <script src="matrix_scripit.js"></script>
-  <script src="script.js"></script>
+    <script src="aninamting_html_script.js"></script>
+    <script src="gameOfLife_algo.js"></script>
 </body>
 </html>

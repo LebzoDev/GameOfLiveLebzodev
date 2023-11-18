@@ -13,6 +13,19 @@ body{
     align-items: center;
 }
 
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #005792;
+   width: 20px !important;
+   border-radius: 50%;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);;
+}
+tr{
+    height: 20px;
+}
+
 .buttons{
     width: 400px;
     display: flex;
@@ -75,17 +88,35 @@ body{
 }
 
 .tab{
-    margin-top: 100px;
+    margin-top: 10px;
     background-color: aliceblue;
 }
 
-table {
-    border-collapse: collapse;
+.config{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 33px;
 }
-td {
-    border: 1px solid #005792;
-   width: 20px !important;
+
+.config  select{
+    background-color: #005792;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid  white;
+    font-weight: bold;
+    color: #fff;
 }
-tr{
-    height: 20px;
+
+#round{
+    position: absolute;
+    right: 10px;
+    padding: 8px;
+    border: 3px solid #005792;
+    border-radius:  50%;
+    color: #005792;
+    box-sizing: border-box;
 }
