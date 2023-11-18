@@ -30,11 +30,13 @@ Ce projet implémente le "Jeu de la Vie", un automate cellulaire imaginé par Jo
 
 - `index.html`: Fichier principal de l'application.
 - `style.css`: Feuille de style pour le design.
-- `script.js`: Logique du jeu implémentée en JavaScript.
+- `aninamting_html_script.js`: Logique des animations en JavaScript.
+- `gameOfLife_algo.js`: Logique du jeu implémentée en JavaScript.
+
 
 ## Aperçu
 
-![Jeu de la Vie](screenshot.png)
+![Jeu de la Vie](asset/screenshot.png)
 
 ## Dépendances
 
